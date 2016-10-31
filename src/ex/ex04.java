@@ -18,15 +18,16 @@ public class ex04 {
 		for (int i = 0; i < n; i++) {
 			arr[i] = scn.nextInt();
 		}
-		square(arr,n);
+		square(arr, n);
 
 	}
 
-	public static int []square(int a[],int b) {
-		for(int i=0;i<b;i++){
-			
+	public static void square(int a[], int b) {
+		for (int i = 0; i < b; i++) {
+			System.out.println(Math.pow(a[i], 2));
+
 		}
-		return a;
+
 	}
 
 }
