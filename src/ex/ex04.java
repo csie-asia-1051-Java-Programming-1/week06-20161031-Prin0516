@@ -24,7 +24,7 @@ public class ex04 {
 
 	public static void square(int a[], int b) {
 		for (int i = 0; i < b; i++) {
-			System.out.println(Math.pow(a[i], 2));
+			System.out.print((int)Math.pow(a[i], 2)+"\t");
 
 		}
 
