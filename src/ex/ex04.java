@@ -14,16 +14,19 @@ public class ex04 {
 		Scanner scn = new Scanner(System.in);
 		System.out.println("請輸入幾個");
 		int n = scn.nextInt();
-		int data[] = new int[n];
+		int arr[] = new int[n];
 		for (int i = 0; i < n; i++) {
-			data[i] = scn.nextInt();
-			fun4(data[i]);
+			arr[i] = scn.nextInt();
 		}
+		square(arr,n);
 
 	}
 
-	public static void fun4(int a) {
-		System.out.println(Math.pow(a, 2));
+	public static int []square(int a[],int b) {
+		for(int i=0;i<b;i++){
+			
+		}
+		return a;
 	}
 
 }
